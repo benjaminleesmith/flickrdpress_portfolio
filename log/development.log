@@ -1,7 +1,0 @@
-# Logfile created on Wed Oct 07 08:45:14 -0700 2009  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
-
-
-Processing PortfolioController#index (for 127.0.0.1 at 2009-10-07 08:48:02) [GET]
-Rendering template within layouts/application
-Rendering portfolio/index
-Completed in 426ms (View: 131, DB: 0) | 200 OK [http://localhost/portfolio]
