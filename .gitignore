@@ -2,4 +2,4 @@ log/*.log
 tmp/**/*
 .svn
 .svn/**/*
-**/.svn
+**/.svn/entries
