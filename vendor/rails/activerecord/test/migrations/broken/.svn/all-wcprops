@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/migrations/broken
+END
+100_migration_that_raises_exception.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/migrations/broken/100_migration_that_raises_exception.rb
+END

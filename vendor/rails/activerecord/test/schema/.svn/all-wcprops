@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema/schema.rb
+END
+schema2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema/schema2.rb
+END
+sqlite_specific_schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema/sqlite_specific_schema.rb
+END
+postgresql_specific_schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema/postgresql_specific_schema.rb
+END
+mysql_specific_schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/schema/mysql_specific_schema.rb
+END

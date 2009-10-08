@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks
+END
+tmp.rake
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/tmp.rake
+END
+log.rake
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/log.rake
+END
+routes.rake
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/routes.rake
+END
+databases.rake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/databases.rake
+END
+documentation.rake
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/documentation.rake
+END
+statistics.rake
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/statistics.rake
+END
+gems.rake
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/gems.rake
+END
+misc.rake
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/misc.rake
+END
+rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/rails.rb
+END
+annotations.rake
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/annotations.rake
+END
+framework.rake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/framework.rake
+END
+middleware.rake
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/middleware.rake
+END
+testing.rake
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/lib/tasks/testing.rake
+END

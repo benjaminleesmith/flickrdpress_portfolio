@@ -1,0 +1,14 @@
+development:
+  key: 
+  secret:
+  photoset_id: 
+  
+test:
+  key: 
+  secret:
+  photoset_id: 
+  
+production:
+  key: 
+  secret:
+  photoset_id: 

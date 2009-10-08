@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource
+END
+custom_methods.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/custom_methods.rb
+END
+validations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/validations.rb
+END
+connection.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/connection.rb
+END
+exceptions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/exceptions.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/version.rb
+END
+http_mock.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/http_mock.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/base.rb
+END
+formats.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activeresource/lib/active_resource/formats.rb
+END

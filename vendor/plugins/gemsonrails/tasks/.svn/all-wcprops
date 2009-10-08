@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/disjointthoughts/!svn/ver/28/rails/voltron_portfolio/vendor/plugins/gemsonrails/tasks
+END
+gems_link.rake
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/disjointthoughts/!svn/ver/28/rails/voltron_portfolio/vendor/plugins/gemsonrails/tasks/gems_link.rake
+END
+load_tasks_in_gems.rake
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/disjointthoughts/!svn/ver/28/rails/voltron_portfolio/vendor/plugins/gemsonrails/tasks/load_tasks_in_gems.rake
+END
+gems_freeze.rake
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/disjointthoughts/!svn/ver/28/rails/voltron_portfolio/vendor/plugins/gemsonrails/tasks/gems_freeze.rake
+END
+gems_unfreeze.rake
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/disjointthoughts/!svn/ver/28/rails/voltron_portfolio/vendor/plugins/gemsonrails/tasks/gems_unfreeze.rake
+END

@@ -1,0 +1,14 @@
+development:
+  key: 77a62398cb5e155750c1a676bcfea772
+  secret: 02d8da0f159c8aef
+  photoset_id: 72157622409282721
+  
+test:
+  key: 77a62398cb5e155750c1a676bcfea772
+  secret: 02d8da0f159c8aef
+  photoset_id: 72157622409282721
+  
+production:
+  key: 77a62398cb5e155750c1a676bcfea772
+  secret: 02d8da0f159c8aef
+  photoset_id: 72157622409282721

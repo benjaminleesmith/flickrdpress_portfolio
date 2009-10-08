@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases
+END
+frontbase.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/frontbase.yml
+END
+postgresql.yml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/postgresql.yml
+END
+sqlite2.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/sqlite2.yml
+END
+sqlite3.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/sqlite3.yml
+END
+mysql.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/mysql.yml
+END
+oracle.yml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/oracle.yml
+END
+ibm_db.yml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/configs/databases/ibm_db.yml
+END

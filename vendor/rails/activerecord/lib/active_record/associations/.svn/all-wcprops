@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations
+END
+association_proxy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/association_proxy.rb
+END
+association_collection.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/association_collection.rb
+END
+belongs_to_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/belongs_to_association.rb
+END
+has_and_belongs_to_many_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb
+END
+has_one_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/has_one_association.rb
+END
+has_one_through_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/has_one_through_association.rb
+END
+has_many_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/has_many_association.rb
+END
+has_many_through_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/has_many_through_association.rb
+END
+belongs_to_polymorphic_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/lib/active_record/associations/belongs_to_polymorphic_association.rb
+END

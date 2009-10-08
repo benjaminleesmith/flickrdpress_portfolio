@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations
+END
+has_many_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/has_many_through_associations_test.rb
+END
+has_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/has_many_associations_test.rb
+END
+callbacks_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/callbacks_test.rb
+END
+join_model_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/join_model_test.rb
+END
+habtm_join_table_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/habtm_join_table_test.rb
+END
+eager_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/eager_test.rb
+END
+eager_singularization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/eager_singularization_test.rb
+END
+inner_join_association_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/inner_join_association_test.rb
+END
+eager_load_nested_include_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/eager_load_nested_include_test.rb
+END
+cascaded_eager_loading_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/cascaded_eager_loading_test.rb
+END
+has_one_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/has_one_through_associations_test.rb
+END
+has_one_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/has_one_associations_test.rb
+END
+eager_load_includes_full_sti_class_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/eager_load_includes_full_sti_class_test.rb
+END
+belongs_to_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/belongs_to_associations_test.rb
+END
+has_and_belongs_to_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/has_and_belongs_to_many_associations_test.rb
+END
+extension_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activerecord/test/cases/associations/extension_test.rb
+END

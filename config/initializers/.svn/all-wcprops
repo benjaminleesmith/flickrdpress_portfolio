@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers/session_store.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers/backtrace_silencers.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/disjointthoughts/!svn/ver/19/rails/voltron_portfolio/config/initializers/mime_types.rb
+END

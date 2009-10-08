@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activesupport/lib/active_support/core_ext/class
+END
+removal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activesupport/lib/active_support/core_ext/class/removal.rb
+END
+attribute_accessors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activesupport/lib/active_support/core_ext/class/attribute_accessors.rb
+END
+delegating_attributes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activesupport/lib/active_support/core_ext/class/delegating_attributes.rb
+END
+inheritable_attributes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/activesupport/lib/active_support/core_ext/class/inheritable_attributes.rb
+END

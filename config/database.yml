@@ -1,0 +1,20 @@
+development:
+  adapter: mysql
+  database: voltron_portfolio_development
+  username: voltronportfolio
+  password: foobies
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql
+  database: voltron_portfolio_test
+  username: voltronportfolio
+  password: foobies
+  socket: /var/run/mysqld/mysqld.sock
+
+production:
+  adapter: mysql
+  database: voltron_portfolio_production
+  username: voltronportfolio
+  password: foobies
+  socket: /var/run/mysqld/mysqld.sock

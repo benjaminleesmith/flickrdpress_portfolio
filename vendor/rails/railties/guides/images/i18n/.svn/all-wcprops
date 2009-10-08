@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n
+END
+demo_localized_pirate.png
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n/demo_localized_pirate.png
+END
+demo_translated_en.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n/demo_translated_en.png
+END
+demo_untranslated.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n/demo_untranslated.png
+END
+demo_translated_pirate.png
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n/demo_translated_pirate.png
+END
+demo_translation_missing.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/disjointthoughts/!svn/ver/24/rails/voltron_portfolio/vendor/rails/railties/guides/images/i18n/demo_translation_missing.png
+END

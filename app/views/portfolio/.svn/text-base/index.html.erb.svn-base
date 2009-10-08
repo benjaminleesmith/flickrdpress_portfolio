@@ -1,0 +1,3 @@
+<% @photoset.photo.each do |photo|%>
+  <%= image_tag(photo.url_m)%>
+<% end %>
