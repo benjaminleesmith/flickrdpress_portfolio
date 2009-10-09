@@ -1,3 +1,4 @@
+<% content_for :title, 'Benjamin Smith Photography' %>
 <% @photoset.photo.each do |photo|%>
   <%= image_tag(photo.url_m)%>
 <% end %>
