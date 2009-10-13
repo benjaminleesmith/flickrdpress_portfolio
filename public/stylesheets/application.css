@@ -79,3 +79,25 @@ a {
   font-size: 12px;
   list-style: disc;
 }
+
+.fat_photo {
+	width: 500px;
+}
+
+.skinny_photo {
+	height: 500px;
+}
+
+.photo_wrapper {
+	width: 502px;
+	height: 502px;
+	background-color: #000000;
+	margin: 5px;
+}
+
+.photo_wrapper table {
+	border-collapse: collapse;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}

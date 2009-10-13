@@ -1,4 +1,10 @@
 <% content_for :title, 'Benjamin Smith Photography' %>
-<% @photoset.photo.each do |photo|%>
-  <%= image_tag(photo.url_m)%>
+<% @photoset.photo.each_with_index do |photo, i|%>
+  <div id="photo_<%=i%>" class="photo_wrapper">
+  	<table>
+  	  <tr>
+  	    <td><%= image_tag(photo.url_l, :class => photo_class(photo))%></td>
+  	  </tr>
+  	</table>
+  </div>
 <% end %>
