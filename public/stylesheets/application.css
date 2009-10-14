@@ -80,12 +80,10 @@ a {
   list-style: disc;
 }
 
-.fat_photo {
-	width: 500px;
-}
-
-.skinny_photo {
-	height: 500px;
+.photo_viewer {
+	position: relative;
+	width: 510px;
+	height: 520px;
 }
 
 .photo_wrapper {
@@ -93,11 +91,21 @@ a {
 	height: 502px;
 	background-color: #000000;
 	margin: 5px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
 }
 
 .photo_wrapper table {
 	border-collapse: collapse;
 	height: 100%;
-	width: 100%;
-	text-align: center;
+  text-align: center;
+}
+
+.photo_wrapper table tr td {
+    width: 500px;
+}
+
+.photo_wrapper table tr td img {
+    margin: 0pt auto;
 }
