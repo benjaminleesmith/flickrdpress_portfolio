@@ -1,5 +1,5 @@
 <% content_for :title, 'Benjamin Smith Photography' %>
-<div id="photo_viewer_wrapper">
+<div id="photo_viewer_wrapper" onMouseOut="fixOnMouseOut(this, event, 'VP.hide_nav();');" onMouseOver="VP.show_nav();">
 	<div class="photo_viewer">
 		<% @photoset.photo.each_with_index do |photo, i|%>
 		  <div id="photo_<%=i%>" class="photo_wrapper" <%='style="display:none;"' if i!=0%>>

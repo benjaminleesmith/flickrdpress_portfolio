@@ -27,14 +27,20 @@ VP.next_image = function() {
   }
 };
 
-Event.observe(window, 'load', function() {
-	Event.observe('photo_viewer_wrapper', 'mouseover', function(event) {
-	    //$$('.hidden_nav').each(Element.appear);
-			console.log('over');
-	});
-	
-	Event.observe('photo_viewer_wrapper', 'mouseout', function(event) {
-      //$$('.hidden_nav').each(Element.fade);
-			console.log('out');
-  });
-});
+VP.show_nav = function() {
+	$$('.hidden_nav').each(Element.appear);
+};
+
+VP.hide_nav = function() {
+	$$('.hidden_nav').each(Element.fade);
+};
+
+//Event.observe(window, 'load', function() {
+//	Event.observe('photo_viewer_wrapper', 'mouseover', function(event) {
+//			console.log('over');
+//	});
+//	
+//	Event.observe('photo_viewer_wrapper', 'mouseout', function(event) {
+//			console.log('out');
+//  });
+//});
