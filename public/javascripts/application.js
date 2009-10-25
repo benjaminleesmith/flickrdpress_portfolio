@@ -27,3 +27,14 @@ VP.next_image = function() {
   }
 };
 
+Event.observe(window, 'load', function() {
+	Event.observe('photo_viewer_wrapper', 'mouseover', function(event) {
+	    //$$('.hidden_nav').each(Element.appear);
+			console.log('over');
+	});
+	
+	Event.observe('photo_viewer_wrapper', 'mouseout', function(event) {
+      //$$('.hidden_nav').each(Element.fade);
+			console.log('out');
+  });
+});

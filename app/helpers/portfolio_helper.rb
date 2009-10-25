@@ -14,4 +14,8 @@ module PortfolioHelper
       500
     end
   end
+  
+  def photo_source(photo)
+    "http://www.flickr.com/photos/#{photo.pathalias}/#{photo.id}"
+  end
 end
