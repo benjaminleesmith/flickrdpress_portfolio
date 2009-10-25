@@ -1,14 +1,14 @@
 development:
-  key: 77a62398cb5e155750c1a676bcfea772
-  secret: 02d8da0f159c8aef
+  key: 2002a59ed3c050ad0a857704c777af23
+  secret: 8da44e101268a325
   photoset_id: 72157622409282721
   
 test:
-  key: 77a62398cb5e155750c1a676bcfea772
-  secret: 02d8da0f159c8aef
+  key: 2002a59ed3c050ad0a857704c777af23
+  secret: 8da44e101268a325
   photoset_id: 72157622409282721
   
 production:
-  key: 77a62398cb5e155750c1a676bcfea772
-  secret: 02d8da0f159c8aef
+  key: 2002a59ed3c050ad0a857704c777af23
+  secret: 8da44e101268a325
   photoset_id: 72157622409282721
