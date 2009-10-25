@@ -1,5 +1,7 @@
 if(!VP) var VP = {};
 VP.selected_photo_index = 0;
+VP.cycling = false;
+VP.cycle_speed = 7000;
 
 VP.previous_image = function() {
   if(VP.selected_photo_index == 1) {
@@ -15,16 +17,40 @@ VP.previous_image = function() {
 };
 
 VP.next_image = function() {
-  if(VP.selected_photo_index == 0) {
-    $('previous_button').appear();
-  }
-  $('photo_'+VP.selected_photo_index).fade();
-  VP.selected_photo_index++;
-  $('photo_'+VP.selected_photo_index).appear();
+	//if there's a next image to show
+	if ($('photo_' + (VP.selected_photo_index + 1))) {
+  	//if we're at the first image and going to next, show the previous button 
+		if (VP.selected_photo_index == 0) {
+			$('previous_button').appear();
+		}
+		
+		//fade out currently shown image
+    $('photo_' + VP.selected_photo_index).fade();
+		
+		//fade in next image
+		VP.selected_photo_index++;
+		$('photo_' + VP.selected_photo_index).appear();
+		
+		//if we're a the last image, fade out the next button
+		if (!$('photo_' + (VP.selected_photo_index + 1))) {
+			$('next_button').fade();
+		}
+	} else {
+    //fade out currently shown image
+    $('photo_' + VP.selected_photo_index).fade();
+		
+		VP.selected_photo_index = 0;
+		$('photo_' + VP.selected_photo_index).appear();
+		$('next_button').appear();
+		$('previous_button').fade();
+	}
+};
 
-  if(!$('photo_'+(VP.selected_photo_index+1))) {
-    $('next_button').fade();
-  }
+VP.cycle_images = function() {
+  if (VP.cycling) {
+		VP.next_image();
+  	setTimeout('VP.cycle_images();', VP.cycle_speed);
+  }	
 };
 
 VP.show_nav = function() {
@@ -35,12 +61,7 @@ VP.hide_nav = function() {
 	$$('.hidden_nav').each(Element.fade);
 };
 
-//Event.observe(window, 'load', function() {
-//	Event.observe('photo_viewer_wrapper', 'mouseover', function(event) {
-//			console.log('over');
-//	});
-//	
-//	Event.observe('photo_viewer_wrapper', 'mouseout', function(event) {
-//			console.log('out');
-//  });
-//});
+Event.observe(window, 'load', function() {
+	VP.cycling = true;
+  setTimeout('VP.cycle_images();', VP.cycle_speed);
+});

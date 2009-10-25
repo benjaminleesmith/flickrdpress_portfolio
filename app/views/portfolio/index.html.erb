@@ -15,6 +15,6 @@
 		<% end %>
 	</div>
 	<div class="portfolio_nav hidden_nav" style="display:none;">
-	  <a href="#" id="previous_button" style="display:none;" onclick="javascript:VP.previous_image();return false;"><%=image_tag('back.png')%></a> <a href="#" id="next_button" <%='style="display:none;"' if @photoset.photo.length < 2%> onclick="javascript:VP.next_image();return false;"><%=image_tag('forward.png')%></a>
+	  <a href="#" id="previous_button" style="display:none;" onclick="javascript:VP.previous_image();VP.cycling = false;return false;"><%=image_tag('back.png')%></a> <a href="#" id="next_button" <%='style="display:none;"' if @photoset.photo.length < 2%> onclick="javascript:VP.next_image();VP.cycling = false;return false;"><%=image_tag('forward.png')%></a>
 	</div>
 </div>
