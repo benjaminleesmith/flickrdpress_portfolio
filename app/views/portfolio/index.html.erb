@@ -1,4 +1,19 @@
-<% content_for :title, 'Benjamin Smith Photography' %>
+<% content_for :title, PORTFOLIO_CONFIG['title'] %>
+<div id="home">
+	<%=render :partial => 'home'%>
+</div>
+<div id="blog" style="display:none;">
+	<% @posts.each do |post| %>
+	  <div class="post">
+	  	<div class="title"><%=link_to(post.elements['title'].text, post.elements['link'].text, :target => '_blog')%></div>
+			<div class="body"><%=post.elements['content:encoded'].text%></div>
+			<div class="comments"><%=link_to("#{post.elements['slash:comments'].text} Comments", post.elements['comments'].text, :target => '_blog')%></div>
+	  </div>
+	<% end %>
+</div>
+<div id="contact" style="display:none;">
+	<%=render :partial => 'contact'%>
+</div>
 <div id="photo_viewer_wrapper" onMouseOut="fixOnMouseOut(this, event, 'VP.hide_nav();');" onMouseOver="VP.show_nav();">
 	<div class="photo_viewer">
 		<% @photoset.photo.each_with_index do |photo, i|%>
@@ -7,7 +22,7 @@
 		  	  <tr>
 		  	    <td>
 		          <%= image_tag(photo.url_l, :width => photo_width(photo), :height => photo_height(photo))%>
-              <%=link_to(image_tag('flickr.png', :height => 50), photo_source(photo), :class => 'hidden_nav', :style => 'display:none')%>
+              <%=link_to(image_tag('flickr.png', :height => 50), photo_source(photo), :class => 'hidden_nav', :style => 'display:none', :target=>'_flickr')%>
 						</td>
 					</tr>
 		  	</table>

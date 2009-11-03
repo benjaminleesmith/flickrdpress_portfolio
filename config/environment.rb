@@ -26,7 +26,7 @@ Rails::Initializer.run do |config|
 
   # Skip frameworks you're not going to use. To use Rails without a database,
   # you must remove the Active Record framework.
-  # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
+  config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
 
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
@@ -41,9 +41,12 @@ Rails::Initializer.run do |config|
 end
 
 FLICKR_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/flickr.yml")[RAILS_ENV]
+WORDPRESS_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/wordpress.yml")[RAILS_ENV]
+PORTFOLIO_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/portfolio.yml")['config']
 
 require 'flickraw'
 FlickRaw.api_key = FLICKR_CONFIG['key']
 FlickRaw.shared_secret = FLICKR_CONFIG['secret']
 
-
+require 'rss/2.0'
+require 'open-uri'

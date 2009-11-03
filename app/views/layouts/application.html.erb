@@ -8,6 +8,14 @@
     <%= yield(:head) %>
   </head>
   <body>
+  	<div id="header"><%=PORTFOLIO_CONFIG['title']%></div>
+		<div id="navigation">
+			<ul>
+				<li><a href="#" onclick="javascript:VP.show_home();return false;">Home</a></li>
+				<li><a href="#" onclick="javascript:VP.show_blog();return false;">Blog</a></li>
+				<li><a href="#" onclick="javascript:VP.show_contact();return false;">Contact</a></li>
+			</ul>
+		</div>
     <div id="container">
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>

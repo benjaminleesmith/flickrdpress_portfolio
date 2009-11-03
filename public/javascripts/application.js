@@ -3,6 +3,24 @@ VP.selected_photo_index = 0;
 VP.cycling = false;
 VP.cycle_speed = 7000;
 
+VP.show_home = function() {
+	$('blog').fade();
+	$('contact').fade();
+	$('home').appear();
+};
+
+VP.show_blog = function() {
+	$('blog').appear();
+  $('contact').fade();
+  $('home').fade();
+};
+
+VP.show_contact = function() {
+	$('blog').fade();
+  $('contact').appear();
+  $('home').fade();
+};
+
 VP.previous_image = function() {
   if(VP.selected_photo_index == 1) {
     $('previous_button').fade();

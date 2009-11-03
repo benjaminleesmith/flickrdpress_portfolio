@@ -1,7 +1,8 @@
 body {
-  background-color: #4B7399;
+  background-color: #000000;
   font-family: Verdana, Helvetica, Arial;
   font-size: 14px;
+	color: #EEEEEE;
 }
 
 a img {
@@ -21,10 +22,9 @@ a {
 #container {
   width: 75%;
   margin: 0 auto;
-  background-color: #FFF;
-  padding: 20px 40px;
-  border: solid 1px black;
-  margin-top: 20px;
+  height: 600px;
+  width: 800px;
+	position: relative;
 }
 
 #flash_notice, #flash_error {
@@ -80,11 +80,36 @@ a {
   list-style: disc;
 }
 
+#header {
+	width: 800px;
+	margin: 0pt auto;
+	font-size: 25px;
+	font-weight: bold;
+	height: 20px;
+}
+
+#navigation {
+	width: 800px;
+	margin: 0pt auto;
+}
+
+#navigation a {
+	color: #999999;
+	text-decoration: none;
+}
+
+#navigation li {
+	display: inline;
+	padding-right: 15px;
+}
+
 #photo_viewer_wrapper {
-	border: 1px solid #000000;
+	border: 1px solid #333333;
 	width: 512px;
 	position: relative;
 	z-index: 2;
+	float: right;
+	background-color: #000000;
 }
 
 .photo_viewer {
@@ -96,14 +121,11 @@ a {
 .photo_wrapper {
 	width: 502px;
 	height: 502px;
-	background-color: #000000;
 	margin: 5px;
 	position:absolute;
 	top: 0px;
 	left: 0px;
 }
-
-
 
 .photo_wrapper table {
 	border-collapse: collapse;
@@ -146,4 +168,57 @@ a {
 
 .portfolio_nav a {
 	color: #FFFFFF;
+}
+
+#blog, #home, #contact {
+	width: 200px;
+	float: left;
+	height: 480px;
+	padding: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#blog {
+	overflow-y:scroll;
+}
+
+#blog img {
+	width: 60%;
+	height: 60%;
+}
+
+#blog img.wp-smiley {
+	width: 15px;
+	height: 15px;
+}
+
+#blog .title a {
+	color:#999999;
+  font-weight:bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#blog .post {
+	padding-bottom: 30px;
+}
+
+#blog .body {
+	font-size: 13px;
+}
+
+#blog .body a, #blog .comments a, #contact a {
+	color:#8888FF;
+}
+
+#blog .comments {
+	font-size: 12px;
+}
+
+#footer {
+	width: 800px;
+	margin: 0pt auto;
+	text-align:center;
 }
