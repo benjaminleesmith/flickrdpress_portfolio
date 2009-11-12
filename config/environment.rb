@@ -40,13 +40,11 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
-FLICKR_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/flickr.yml")[RAILS_ENV]
-WORDPRESS_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/wordpress.yml")[RAILS_ENV]
-PORTFOLIO_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/portfolio.yml")['config']
+PORTFOLIO_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/config.yml")[RAILS_ENV]
 
 require 'flickraw'
-FlickRaw.api_key = FLICKR_CONFIG['key']
-FlickRaw.shared_secret = FLICKR_CONFIG['secret']
+FlickRaw.api_key = PORTFOLIO_CONFIG['flickr_key']
+FlickRaw.shared_secret = PORTFOLIO_CONFIG['flickr_secret']
 
 require 'rss/2.0'
 require 'open-uri'

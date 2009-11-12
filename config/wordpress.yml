@@ -1,8 +1,0 @@
-development:
-  rss_url: http://disjointthoughts.com/category/photography/feed/ 
-    
-test:
-  rss_url: http://disjointthoughts.com/category/photography/feed/
-  
-production:
-  rss_url: http://disjointthoughts.com/category/photography/feed/

@@ -1,8 +1,0 @@
-development:
-  rss_url: feed-url
-    
-test:
-  rss_url: feed-url
-  
-production:
-  rss_url: feed-url

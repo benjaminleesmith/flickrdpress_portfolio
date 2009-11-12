@@ -1,0 +1,23 @@
+development:
+  title: Benjamin Smith Photography
+  flickr_key: 2002a59ed3c050ad0a857704c777af23
+  flickr_secret: 8da44e101268a325
+  flickr_photoset_id: 72157622409282721
+  wordpress_rss_url: http://disjointthoughts.com/category/photography/feed/
+  google_analytics_web_property_id: UA-5286156-2
+  
+test:
+  title: Benjamin Smith Photography
+  flickr_key: 2002a59ed3c050ad0a857704c777af23
+  flickr_secret: 8da44e101268a325
+  flickr_photoset_id: 72157622409282721
+  wordpress_rss_url: http://disjointthoughts.com/category/photography/feed/
+  google_analytics_web_property_id: UA-5286156-2
+  
+production:
+  title: Benjamin Smith Photography
+  flickr_key: 2002a59ed3c050ad0a857704c777af23
+  flickr_secret: 8da44e101268a325
+  flickr_photoset_id: 72157622409282721
+  wordpress_rss_url: http://disjointthoughts.com/category/photography/feed/
+  google_analytics_web_property_id: UA-5286156-2
