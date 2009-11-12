@@ -1,0 +1,23 @@
+development:
+  title: 
+  flickr_key: 
+  flickr_secret: 
+  flickr_photoset_id: 
+  wordpress_rss_url: 
+  google_analytics_web_property_id: 
+  
+test:
+  title: 
+  flickr_key: 
+  flickr_secret: 
+  flickr_photoset_id: 
+  wordpress_rss_url: 
+  google_analytics_web_property_id: 
+  
+production:
+  title: 
+  flickr_key: 
+  flickr_secret: 
+  flickr_photoset_id: 
+  wordpress_rss_url: 
+  google_analytics_web_property_id: 
