@@ -209,8 +209,17 @@ a {
 	font-size: 13px;
 }
 
-#blog .body a, #blog .comments a, #contact a {
+#blog .body a, #blog .comments a, #contact a, #footer a {
 	color:#8888FF;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer .disclaimer {
+	padding-top: 10px;
+	font-size: 12px;
 }
 
 #blog .comments {
