@@ -1,3 +1,6 @@
+// Place your application-specific JavaScript functions and classes here
+// This file is automatically included by javascript_include_tag :defaults
+
 if(!VP) var VP = {};
 VP.selected_photo_index = 0;
 VP.cycling = false;
@@ -37,18 +40,18 @@ VP.previous_image = function() {
 VP.next_image = function() {
 	//if there's a next image to show
 	if ($('photo_' + (VP.selected_photo_index + 1))) {
-  	//if we're at the first image and going to next, show the previous button 
+  	//if we're at the first image and going to next, show the previous button
 		if (VP.selected_photo_index == 0) {
 			$('previous_button').appear();
 		}
-		
+
 		//fade out currently shown image
     $('photo_' + VP.selected_photo_index).fade();
-		
+
 		//fade in next image
 		VP.selected_photo_index++;
 		$('photo_' + VP.selected_photo_index).appear();
-		
+
 		//if we're a the last image, fade out the next button
 		if (!$('photo_' + (VP.selected_photo_index + 1))) {
 			$('next_button').fade();
@@ -56,7 +59,7 @@ VP.next_image = function() {
 	} else {
     //fade out currently shown image
     $('photo_' + VP.selected_photo_index).fade();
-		
+
 		VP.selected_photo_index = 0;
 		$('photo_' + VP.selected_photo_index).appear();
 		$('next_button').appear();
@@ -68,7 +71,7 @@ VP.cycle_images = function() {
   if (VP.cycling) {
 		VP.next_image();
   	setTimeout('VP.cycle_images();', VP.cycle_speed);
-  }	
+  }
 };
 
 VP.show_nav = function() {
