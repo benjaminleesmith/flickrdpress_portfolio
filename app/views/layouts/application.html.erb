@@ -8,7 +8,7 @@
     <%= yield(:head) %>
   </head>
   <body>
-  	<div id="header"><%=PORTFOLIO_CONFIG['title']%></div>
+  	<div id="header"><%=::PORTFOLIO_CONFIG['title']%></div>
 		<div id="navigation">
 			<ul>
 				<li><a href="#" onclick="javascript:VP.show_home();return false;">Home</a></li>
@@ -20,14 +20,14 @@
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <%- end -%>
-      
+
       <%- if show_title? -%>
         <h1><%=h yield(:title) %></h1>
       <%- end -%>
-      
+
       <%= yield %>
     </div>
-		
+
 		<div id="footer">
 			<div>
 				Site built on <%=link_to('Voltron Portfolio', 'http://voltronportfolio.com')%>.
@@ -37,14 +37,14 @@
 			</div>
 		</div>
   </body>
-	
+
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
 	<script type="text/javascript">
 		try {
-			var pageTracker = _gat._getTracker("<%=PORTFOLIO_CONFIG['google_analytics_web_property_id']%>");
+			var pageTracker = _gat._getTracker("<%=::PORTFOLIO_CONFIG['google_analytics_web_property_id']%>");
 			pageTracker._trackPageview();
 		} catch(err) {}
 	</script>

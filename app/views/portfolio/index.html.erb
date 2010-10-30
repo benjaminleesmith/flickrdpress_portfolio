@@ -1,4 +1,4 @@
-<% content_for :title, PORTFOLIO_CONFIG['title'] %>
+<% content_for :title, ::PORTFOLIO_CONFIG['title'] %>
 <div id="home">
 	<%=render :partial => 'home'%>
 </div>
@@ -17,7 +17,7 @@
 <div id="photo_viewer_wrapper" onMouseOut="fixOnMouseOut(this, event, 'VP.hide_nav();');" onMouseOver="VP.show_nav();">
 	<div class="photo_viewer">
 		<% @photoset.photo.each_with_index do |photo, i|%>
-		  <div id="photo_<%=i%>" class="photo_wrapper" <%='style="display:none;"' if i!=0%>>
+		  <div id="photo_<%=i%>" class="photo_wrapper" <%="style='display:none;'" if i!=0%>>
 		  	<table>
 		  	  <tr>
 		  	    <td>
