@@ -23,7 +23,7 @@
 	<% @posts.each do |post| %>
 	  <div class="post">
 	  	<div class="title"><%=link_to(post.elements['title'].text, post.elements['link'].text, :target => '_blog')%></div>
-			<div class="body"><%=post.elements['content:encoded'].text%></div>
+			<div class="body"><%=raw CGI.unescapeHTML(post.elements['content:encoded'].text)%></div>
 			<div class="comments"><%=link_to("#{post.elements['slash:comments'].text} Comments", post.elements['comments'].text, :target => '_blog')%></div>
 	  </div>
 	<% end %>
