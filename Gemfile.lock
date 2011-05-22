@@ -132,3 +132,4 @@ DEPENDENCIES
   pg
   rails (= 3.0.7)
   rspec-rails
+  selenium-webdriver

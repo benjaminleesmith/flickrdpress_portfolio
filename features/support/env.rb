@@ -36,4 +36,6 @@ begin
 rescue NameError
   raise "You need to add database_cleaner to your Gemfile (in the :test group) if you wish to use it."
 end
-
+Capybara.default_driver = :selenium
+# Capybara::Driver::Selenium::Firefox::Binary.path='/Users/bsmith/Applications/Firefox.app'
+Selenium::WebDriver::Firefox::Binary.path='/Users/bsmith/Applications/Firefox.app/Contents/MacOS/firefox-bin'
