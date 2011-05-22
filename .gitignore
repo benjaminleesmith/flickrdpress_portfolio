@@ -6,3 +6,5 @@ tmp/**/*
 .tmp_*
 nbproject
 nbproject/**/*
+vendor/cache
+vendor/cache/**/*
