@@ -4,4 +4,4 @@ Feature: Home
     Given I am on the home page
 	Then I should see "NOTE: All my photos are copyrighted."
 	And "flickr gadget for google wave" should be hidden
-	And "If you" should be hidden
+	And "If you would like to contact me about anything at all, feel free to email me at" should be hidden
