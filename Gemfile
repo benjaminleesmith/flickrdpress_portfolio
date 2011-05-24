@@ -38,4 +38,6 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
+  gem 'common_cucumber_steps', :path => 'vendor/gems/common_cucumber_steps'
+  gem 'ruby-debug'
 end
