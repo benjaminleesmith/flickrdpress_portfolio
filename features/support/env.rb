@@ -40,3 +40,5 @@ end
 Selenium::WebDriver::Firefox::Binary.path='/Users/bsmith/Applications/Firefox.app/Contents/MacOS/firefox-bin'
 
 # require 'common_cucumber_steps'
+
+Capybara.default_wait_time = 5
