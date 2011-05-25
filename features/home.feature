@@ -7,13 +7,12 @@ Feature: Home
 	And "flickr gadget for google wave" should be hidden
 	And "If you would like to contact me about anything at all, feel free to email me at" should be hidden
 	When I follow "Blog"
-	And I wait for "3" second
+	And I wait for the div with id "blog" to be visible
 	Then "flickr gadget for google wave" should be visible
-	Then show me the page
 	And "If you would like to contact me about anything at all, feel free to email me at" should be hidden
 	And "NOTE: All my photos are copyrighted." should be hidden
 	When I follow "Contact"
-	And I wait for "3" second
+	And I wait for the div with id "contact" to be visible
 	Then "NOTE: All my photos are copyrighted." should be hidden
 	And "flickr gadget for google wave" should be hidden
 	And "If you would like to contact me about anything at all, feel free to email me at" should be visible

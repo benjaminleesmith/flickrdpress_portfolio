@@ -47,7 +47,12 @@ if defined? Cucumber
     end
   end
   
-  When /^I wait for "([^"]*)" second$/ do |arg1|
+  When /^I wait for "([^"]*)" second?s$/ do |arg1|
     sleep(arg1.to_i)
+  end
+  
+  # TOOD Check to see if selenium is loaded
+  When /^I wait for the div with id "([^"]*)" to be visible$/ do |arg1|
+   wait_until { page.should have_xpath("//div[@id='#{arg1}' and contains(@style, '')]")}
   end
 end
