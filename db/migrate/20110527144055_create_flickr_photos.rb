@@ -3,7 +3,9 @@ class CreateFlickrPhotos < ActiveRecord::Migration
     create_table :flickr_photos do |t|
       t.string :flickr_id
       t.string :pathalias
-      t.string :url
+      t.string :url_large
+      t.string :width_large
+      t.string :height_large
       t.timestamps
     end
   end

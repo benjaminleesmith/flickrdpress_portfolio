@@ -15,7 +15,9 @@ ActiveRecord::Schema.define(:version => 20110527144055) do
   create_table "flickr_photos", :force => true do |t|
     t.string   "flickr_id"
     t.string   "pathalias"
-    t.string   "url"
+    t.string   "url_large"
+    t.string   "width_large"
+    t.string   "height_large"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

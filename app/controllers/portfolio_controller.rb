@@ -16,7 +16,7 @@
 
 class PortfolioController < ApplicationController
   def index
-    @photoset = Flickr.photos
+    @photos = FlickrPhoto.all
     @posts = Wordpress.posts
   end
 end

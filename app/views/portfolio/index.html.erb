@@ -33,12 +33,12 @@
 </div>
 <div id="photo_viewer_wrapper" onMouseOut="fixOnMouseOut(this, event, 'VP.hide_nav();');" onMouseOver="VP.show_nav();">
 	<div class="photo_viewer">
-		<% @photoset.photo.each_with_index do |photo, i|%>
+		<% @photos.each_with_index do |photo, i|%>
 		  <div id="photo_<%=i%>" class="photo_wrapper" <%="style='display:none;'" if i!=0%>>
 		  	<table>
 		  	  <tr>
 		  	    <td>
-		          <%= image_tag(photo.url_l, :width => photo_width(photo), :height => photo_height(photo))%>
+		          <%= image_tag(photo.url_large, :width => photo_width(photo), :height => photo_height(photo))%>
               <%=link_to(image_tag('flickr.png', :height => 50), photo_source(photo), :class => 'hidden_nav', :style => 'display:none', :target=>'_flickr')%>
 						</td>
 					</tr>
@@ -47,6 +47,6 @@
 		<% end %>
 	</div>
 	<div class="portfolio_nav hidden_nav" style="display:none;">
-	  <a href="#" id="previous_button" style="display:none;" onclick="javascript:VP.previous_image();VP.cycling = false;return false;"><%=image_tag('back.png')%></a> <a href="#" id="next_button" <%='style="display:none;"' if @photoset.photo.length < 2%> onclick="javascript:VP.next_image();VP.cycling = false;return false;"><%=image_tag('forward.png')%></a>
+	  <a href="#" id="previous_button" style="display:none;" onclick="javascript:VP.previous_image();VP.cycling = false;return false;"><%=image_tag('back.png')%></a> <a href="#" id="next_button" <%='style="display:none;"' if @photos.length < 2%> onclick="javascript:VP.next_image();VP.cycling = false;return false;"><%=image_tag('forward.png')%></a>
 	</div>
 </div>

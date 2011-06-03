@@ -6,7 +6,9 @@ class FlickrPhoto < ActiveRecord::Base
       FlickrPhoto.create(
         :flickr_id => photo['id'],
         :pathalias => photo['pathalias'],
-        :url => photo['url_l']
+        :url_large => photo['url_l'],
+        :width_large => photo['width_l'],
+        :height_large => photo['height_l']
       )
     end
   end
