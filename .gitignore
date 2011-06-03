@@ -9,3 +9,5 @@ nbproject/**/*
 vendor/cache
 vendor/cache/**/*
 config/database.yml
+.idea
+.idea/**/*
