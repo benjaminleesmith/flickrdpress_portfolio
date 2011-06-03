@@ -15,7 +15,7 @@
 # along with Voltron Portfolio.  If not, see <http://www.gnu.org/licenses/>.
 
 class Flickr
-  def self.photos
-    flickr.photosets.getPhotos({:photoset_id => ::PORTFOLIO_CONFIG['flickr_photoset_id'], :extras => 'url_l,owner_name,path_alias'})
+  def self.photos_in_set(flickr_photoset_id)
+    flickr.photosets.getPhotos({:photoset_id => flickr_photoset_id, :extras => 'url_l,owner_name,path_alias'})['photo']
   end
 end

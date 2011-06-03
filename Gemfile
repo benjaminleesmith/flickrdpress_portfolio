@@ -41,4 +41,5 @@ group :test do
   gem 'common_cucumber_steps', :path => 'vendor/gems/common_cucumber_steps'
   gem 'ruby-debug'
   gem 'launchy'
+  gem 'mocha'
 end
